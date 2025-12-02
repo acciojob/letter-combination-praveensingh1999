@@ -1,6 +1,5 @@
 function letterCombinations(input_digit) {
-  //Complete the function
-	 if (!input_digit || input_digit.length === 0) return [];
+  if (!input_digit || input_digit.length === 0) return [];
 
   const map = {
     "0": "0",
